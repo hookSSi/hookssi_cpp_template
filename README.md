@@ -15,3 +15,10 @@ Ashblue 라는 개발자분 처럼 git 프로젝트를 관리해보려고 시도
 3. npm init --yes (다른 저장소의 package.json 가져와 작성하여 npm install을 이용해 4를 건너뛰는 방법도 있다.)
 4. commitizen init cz-conventional-changelog --save-dev --save-exact
 5. git cz를 통해 커밋 작성
+
+
+## travis-ci
+
+pull request 시 자동으로 테스트 -> 빌드 를 거쳐 검사 후 평가
+
+1. [참고](https://luke7102.github.io/dev/2019/12/10/dev-create-blog-05.html)

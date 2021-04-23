@@ -63,6 +63,6 @@ CodeCoverage/
 crashlytics-build.properties
 
 # Node.js
-node_modules
-dist
+node_modules/
+dist/
 dist.zip

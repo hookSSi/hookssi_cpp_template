@@ -20,10 +20,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hookSSi/sample"
+    "url": "git+https://github.com/hookSSi/sample.git"
   },
   "author": {
-    "name": "HookSSi",
+    "name": "hookssi",
     "email": "sounghoo12@gmail.com"
   },
   "license": "MIT",
