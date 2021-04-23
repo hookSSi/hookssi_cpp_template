@@ -9,6 +9,7 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Mm]emoryCaptures/
+Assets/AssetStoreTools
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
@@ -20,7 +21,7 @@
 [Aa]ssets/Plugins/Editor/JetBrains*
 
 # Visual Studio cache directory
-.vs/
+/.vs/
 
 # Gradle cache directory
 .gradle/
@@ -54,7 +55,14 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+/Logs/Packages-Update.log
+Logs/
+CodeCoverage/
 
 # Crashlytics generated file
 crashlytics-build.properties
 
+# Node.js
+node_modules
+dist
+dist.zip
