@@ -1,7 +1,6 @@
-[![Build Status](https://travis-ci.org/hookSSi/sample.svg?branch=main)](https://travis-ci.org/hookSSi/sample)
 
 # 만든 목적
-Ashblue 라는 개발자분 처럼 git 프로젝트를 관리해보려고 시도하는 저장소
+Ashblue 라는 개발자분 처럼 git 프로젝트를 예쁘게 관리해보려고 시도하는 저장소
 
 덤으로 쉽게 할 수 있다면 템플릿의 느낌으로 정리하고 싶다.
 
@@ -16,9 +15,8 @@ Ashblue 라는 개발자분 처럼 git 프로젝트를 관리해보려고 시도
 4. commitizen init cz-conventional-changelog --save-dev --save-exact
 5. git cz를 통해 커밋 작성
 
+## git action 
 
-## travis-ci
+travis-ci는 개인적으로 쓰기에 갱신해야하는 불편함이 생길 거 같아서 
 
-pull request 시 자동으로 테스트 -> 빌드 를 거쳐 검사 후 평가
-
-1. [참고](https://luke7102.github.io/dev/2019/12/10/dev-create-blog-05.html)
+github에서 제공해주는 action을 통해 테스트와 빌드를 해볼려고 한다.
