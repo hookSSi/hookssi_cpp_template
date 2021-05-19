@@ -1,0 +1,36 @@
+{
+  "name": "hookssi_template",
+  "version": "0.0.0",
+  "description": "[![C++ build](https://github.com/hookSSi/hookssi_template/actions/workflows/main.yml/badge.svg)](https://github.com/hookSSi/hookssi_template/actions/workflows/main.yml)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hookSSi/hookssi_template.git"
+  },
+  "keywords": [],
+  "author": {
+    "name" : "hookssi",
+    "email" : "sounghoo12@gmail.com",
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hookSSi/hookssi_template/issues"
+  },
+  "homepage": "https://github.com/hookSSi/hookssi_template#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
