@@ -1,7 +1,7 @@
 {
   "name": "hookssi_template",
   "version": "0.0.0-development",
-  "description": "[![C++ build](https://github.com/hookSSi/hookssi_template/actions/workflows/main.yml/badge.svg)](https://github.com/hookSSi/hookssi_template/actions/workflows/main.yml)",
+  "description": "A github project template for future to use",
   "directories": {
     "doc": "docs",
     "lib": "lib",
