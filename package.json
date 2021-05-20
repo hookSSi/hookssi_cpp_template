@@ -8,7 +8,7 @@
     "test": "tests"
   },
   "private": true,
-  "filse":[
+  "filse": [
     "CHANGELOG.md",
     "package.json",
     "package-lock.json"
