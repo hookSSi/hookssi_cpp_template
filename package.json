@@ -1,20 +1,19 @@
 {
   "name": "hookssi_template",
-  "version": "0.0.0",
+  "version": "0.0.0-development",
   "description": "[![C++ build](https://github.com/hookSSi/hookssi_template/actions/workflows/main.yml/badge.svg)](https://github.com/hookSSi/hookssi_template/actions/workflows/main.yml)",
-  "main": "index.js",
   "directories": {
     "doc": "docs",
     "lib": "lib",
     "test": "tests"
   },
   "scripts": {
-    "semantic-release": "sematic-release",
+    "semantic-release": "semantic-release",
     "commit": "git cz"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hookSSi/hookssi_template.git"
+    "url": "https://github.com/hookSSi/hookssi_template.git"
   },
   "keywords": [],
   "author": {
@@ -29,6 +28,7 @@
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
+    "@semantic-release/github": "^7.2.3",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^6.0.0",
     "semantic-release": "^17.4.3"

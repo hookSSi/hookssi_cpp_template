@@ -42,7 +42,18 @@ git의 hook을 관리하는 툴
 1. npx husky add .husky/commit-msg "npx --no-install commitlint --edit $1"
 
 ## semantic-release (option)
+
 커밋 메시지 포멧에 따라 버전을 매겨주는 툴
+
+즉 commitizen을 통해 작성하여 commitlint에 의해 검사 받은 commit 메시지의 포멧에 따라 예를 들면:
+
+| Commit message                                                                                                                                                                                   | Release type               |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------- |
+| `fix(pencil): stop graphite breaking when too much pressure applied`                                                                                                                             | Patch Release              |
+| `feat(pencil): add 'graphiteWidth' option`                                                                                                                                                       | ~~Minor~~ Feature Release  |
+| `perf(pencil): remove graphiteWidth option`<br><br>`BREAKING CHANGE: The graphiteWidth option has been removed.`<br>`The default graphite width of 10mm is always used for performance reasons.` | ~~Major~~ Breaking Release |
+
+이런식으로 구분되어 [표준](https://semver.org/lang/ko/)에 따라 매겨진다. 
 
 # git action
 

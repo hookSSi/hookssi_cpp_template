@@ -38,3 +38,8 @@ jobs:
       
       - name: Run tests
         run: build/bin/shape_test
+
+      - name: Release
+        env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm run semantic-release
