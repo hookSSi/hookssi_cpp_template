@@ -1,4 +1,4 @@
-git {
+{
   "name": "hookssi_template",
   "version": "0.0.0",
   "description": "[![C++ build](https://github.com/hookSSi/hookssi_template/actions/workflows/main.yml/badge.svg)](https://github.com/hookSSi/hookssi_template/actions/workflows/main.yml)",
