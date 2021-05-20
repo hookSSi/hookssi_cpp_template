@@ -9,7 +9,8 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "semantic-release": "sematic-release",
+    "commit": "git cz"
   },
   "repository": {
     "type": "git",
@@ -29,16 +30,12 @@
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
     "cz-conventional-changelog": "^3.3.0",
-    "husky": "^6.0.0"
+    "husky": "^6.0.0",
+    "semantic-release": "^17.4.3"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
-    }
-  },
-  "husky": {
-    "hooks": {
-      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
     }
   }
 }

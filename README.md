@@ -12,13 +12,9 @@ Ashblue 라는 개발자분 처럼 git 프로젝트를 예쁘게 관리해보려
 
 커밋 메시지의 템플릿을 제공하는 것
 
-1. npm 설치
+1. npm install
 
-1. npm install commitizen -g
-
-1. npm init --yes (다른 저장소의 package.json 가져와 작성하여 npm install을 이용해 4를 건너뛰는 방법도 있다.)
-
-1. commitizen init cz-conventional-changelog --save-dev --save-exact
+1. package.json을 통해 필요한 패키지들이 설치됨 ex) commitizen, husky, commitlint 등
 
 1. git cz를 통해 커밋 작성
 
@@ -26,7 +22,17 @@ Ashblue 라는 개발자분 처럼 git 프로젝트를 예쁘게 관리해보려
 
 git의 hook을 관리하는 툴
 
-# #git action
+1. npx husky .husky/{hook의 이름} "{실행할 hook}" - npm 버전이 7.13은 되어야함
+
+## commitlint
+
+커밋 메시지의 템플릿을 강제하도록 검사하는 툴
+
+
+## semantic-release (option)
+커밋 메시지 포멧에 따라 버전을 매겨주는 툴
+
+# git action
 
 travis-ci는 개인적으로 쓰기에 갱신해야하는 불편함이 생길 거 같아서
 

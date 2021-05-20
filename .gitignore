@@ -51,4 +51,7 @@
 # Node.js
 node_modules
 dist
-dist.zip
+dist.zip 
+
+# husky hook folder
+/.husky/
