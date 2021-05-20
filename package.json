@@ -17,8 +17,8 @@
   },
   "keywords": [],
   "author": {
-    "name" : "hookssi",
-    "email" : "sounghoo12@gmail.com"
+    "name": "hookssi",
+    "email": "sounghoo12@gmail.com"
   },
   "license": "MIT",
   "bugs": {
@@ -26,11 +26,19 @@
   },
   "homepage": "https://github.com/hookSSi/hookssi_template#readme",
   "devDependencies": {
-    "cz-conventional-changelog": "^3.3.0"
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^6.0.0"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
     }
   }
 }
