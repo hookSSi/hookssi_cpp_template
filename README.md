@@ -5,6 +5,12 @@
 
 [Ashblue](https://github.com/ashblue) 라는 개발자분처럼 git 프로젝트를 예쁘게 관리해보려고 템플릿을 만들었습니다.
 
+# 요구사항
+
+* nodejs(nodejs안에 npm이 포함되어 있습니다.)
+* git
+* github
+
 # 사용법
 기본적으로 프로젝트를 한번 테스트 해보고 싶다고 생각합니다.
 
@@ -13,8 +19,8 @@
 방법은 다음과 같습니다.
 
 1. git clone
-1. npm install 
-1. 아무거나 적당히 수정한다.
+1. package.json안에 git url과 같은 기본 정보를 수정합니다.
+1. npm install
 1. git add
 1. npm run commit
 1. git push
